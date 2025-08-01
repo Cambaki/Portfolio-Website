@@ -12,13 +12,12 @@ export default function Hero() {
                 <div className="relative">
                   <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
                     <img 
-                      src="/Image (1).jpeg"
+                      src="/hero-image.jpeg"
                       alt="Cameron Hale"
                       className="w-full h-full object-cover"
                       onError={(e) => {
-                        console.error('Failed to load hero image: /Image (1).jpeg');
-                        // Fallback to another image if this one fails
-                        e.currentTarget.src = '/IMG_5819.jpeg';
+                        console.error('Failed to load hero image');
+                        console.log('Attempted to load:', e.currentTarget.src);
                       }}
                     />
                   </div>

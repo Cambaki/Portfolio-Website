@@ -9,7 +9,7 @@ export const sampleProjects: Project[] = [
 This project deepened my understanding of circuit design, load balancing, and grounding techniques, while sharpening my ability to read blueprints, troubleshoot hidden issues, and work efficiently under time and logistical constraints. Through this experience, I gained confidence in my electrical installation skills, strengthened my project management abilities, and learned how to communicate effectively with homeowners, inspectors, and team members to deliver a safe, modern electrical infrastructure.
 
 The included photos and video show the process of running new wires, upgrading the panel, and ensuring everything met code. This hands-on work was both challenging and incredibly rewarding.`,
-    coverImage: '/Panel New.png',
+    coverImage: '/Project1-cover-new.jpeg', // Changed filename
     images: [
       '/Panel In.jpeg',
       '/IMG_5920.png',

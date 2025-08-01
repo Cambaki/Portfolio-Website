@@ -50,7 +50,7 @@ export default function ProjectDetailPage() {
         <div className="relative h-80 sm:h-96 md:h-[28rem] bg-gray-100">
           {allImages.length > 0 && (
             <img
-              src={allImages[currentImageIndex]}
+              src={`${allImages[currentImageIndex]}?v=${Date.now()}`}
               alt={foundProject.title}
               className="w-full h-full object-contain"
             />
