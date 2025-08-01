@@ -14,14 +14,16 @@ export default function ProfessionalSummary() {
           </p>
         </div>
 
-        <div className="prose prose-lg max-w-3xl mx-auto text-gray-700">
-          <p>
+        <div className="prose prose-lg max-w-3xl mx-auto text-gray-700 space-y-6">
+          <p className="mb-6">
             Driven Electrical Engineering student with extensive hands-on experience in both residential and commercial electrical renovations, including system upgrades, installations, and infrastructure modernization. Skilled in circuit design, panel assembly, and NEC-compliant rewiring, with strong knowledge of power systems, load planning, and sustainable energy solutions.
           </p>
-          <p>
+          
+          <p className="mb-6">
             Experienced in managing renovation projects from concept to completion—coordinating cross-functional teams, managing budgets, and ensuring on-time delivery. Known for strong teamwork, problem-solving, and on-site adaptability. Passionate about applying engineering principles to real-world challenges, with a long-term focus on innovation, energy systems, and impactful technical leadership.
           </p>
-          <p>
+          
+          <p className="mb-6">
             I'm passionate about creating a cleaner world for future generations. My goal is to revolutionize the field of renewable energy through power grid innovation, making sustainable energy more accessible and efficient for everyone.
           </p>
         </div>
