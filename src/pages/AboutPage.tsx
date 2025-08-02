@@ -50,6 +50,49 @@ export default function AboutPage() {
           Email Me
         </a>
       </section>
+
+      {/* About This Website - New Section */}
+      <div className="bg-gray-50 rounded-lg p-8 mb-8">
+        <h2 className="text-3xl font-bold text-black mb-6">About This Website</h2>
+        <div className="prose max-w-none text-gray-700">
+          <p className="text-lg mb-4">
+            This portfolio website was built as a comprehensive showcase of my engineering projects, 
+            academic journey, and professional development. It serves as both a digital resume and 
+            a detailed project gallery, demonstrating my technical skills across multiple disciplines.
+          </p>
+          
+          <h3 className="text-xl font-semibold text-black mt-6 mb-3">Technical Implementation</h3>
+          <p className="mb-4">
+            The website is built using modern web technologies including React, TypeScript, and 
+            Tailwind CSS. It features a responsive design that works seamlessly across desktop, 
+            tablet, and mobile devices. The architecture emphasizes clean code, component reusability, 
+            and optimal user experience.
+          </p>
+          
+          <h3 className="text-xl font-semibold text-black mt-6 mb-3">Key Features</h3>
+          <ul className="list-disc list-inside mb-4 space-y-2">
+            <li>Interactive project gallery with detailed case studies</li>
+            <li>Integrated video content and image carousels</li>
+            <li>Direct links to live projects and GitHub repositories</li>
+            <li>Responsive design optimized for all devices</li>
+            <li>Clean, professional interface focused on content presentation</li>
+          </ul>
+          
+          <h3 className="text-xl font-semibold text-black mt-6 mb-3">Purpose & Goals</h3>
+          <p className="mb-4">
+            This platform allows me to present my work in a structured, accessible format that 
+            goes beyond traditional resumes. Each project includes comprehensive documentation, 
+            technical details, and visual evidence of my capabilities. The website demonstrates 
+            not only my engineering projects but also my proficiency in web development and 
+            digital design.
+          </p>
+          
+          <p className="text-sm text-gray-600 mt-6 italic">
+            Built with passion for engineering and commitment to excellence in both technical 
+            implementation and user experience.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

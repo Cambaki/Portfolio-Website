@@ -54,5 +54,25 @@ The work demonstrates my ability to apply programming skills to complex engineer
     liveUrl: 'https://hydroelectric.streamlit.app/',
     tags: ['Python', 'Simulation', 'Renewable Energy', 'Engineering', 'Hydroelectric'],
     date: 'Apr 2025'
+  },
+  {
+    id: '4',
+    title: 'Delco Radio Auxiliary Port Integration',
+    description: `This project involved retrofitting an older Delco radio with a modern auxiliary input port to enable connectivity with smartphones and modern audio devices. The challenge was to integrate new circuitry without compromising the original radio's functionality or aesthetic.
+
+The modification required careful analysis of the existing circuit board, identification of appropriate signal paths, and precise soldering of new components. I had to understand the radio's internal architecture, ensure proper impedance matching, and create a clean installation that appeared factory-original. 
+
+The pictures depict a basic wiring schematic along with the circuit board before the modification, showcasing the tools used and the integration of new components. The final installation maintains the classic look while providing modern functionality.
+
+This project demonstrates my ability to bridge old and new technologies, work with automotive electronics, and solve real-world problems through creative engineering solutions. The end result was a fully functional auxiliary input that maintained the classic appearance while adding modern convenience.`,
+    coverImage: '/Top-View-Radio.jpeg',
+    images: [
+      '/Female Aux Port.jpeg',
+      '/Soldering Template.png',
+      '/Wiring-Schematic.PNG',
+      '/Final-Input.jpeg'
+    ],
+    tags: ['Electronics', 'Automotive', 'Circuit Modification', 'Retrofitting', 'Hands-on'],
+    date: 'Feb 2025'
   }
 ];
