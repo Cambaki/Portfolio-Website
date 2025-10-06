@@ -141,6 +141,16 @@ export default function ResumePage() {
               <li>Gained experience in public sector IT operations and customer service.</li>
             </ul>
           </div>
+          <div>
+            <h3 className="text-md font-semibold text-black">Machining Intern – Samkee America Manufacturing</h3>
+            <p className="text-gray-600">Tuskegee, AL | Fall 2025 – Present</p>
+            <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
+              <li>Support machining and production operations, including machine setup assistance and basic process monitoring under supervision.</li>
+              <li>Perform quality control tasks and measurement checks to help maintain part tolerances and production standards.</li>
+              <li>Contribute to documentation and process improvements through observations, training updates, and standardization efforts.</li>
+              <li>Participate in team activities, safety training, and cross-functional collaboration to support continuous improvement.</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -174,6 +184,16 @@ export default function ResumePage() {
               <li>Developed a Python-based simulation to model the mechanics and efficiency of a hydroelectric propulsion system, using fluid dynamics and power generation principles.</li>
               <li>Designed algorithms to simulate energy conversion from water flow to mechanical propulsion, optimizing efficiency and performance.</li>
               <li>Analyzed system behavior under different conditions (flow rates, turbine efficiency) to predict real-world performance and identify potential improvements.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-md font-semibold text-black">Theta TCC & Valve Body Process Review</h3>
+            <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
+              <li>Reviewed and improved Process Training Manuals (PTM) and On-the-Job Training (OJT) guides for operators and inspectors, with focus on Theta TCC and Valve Body workflows.</li>
+              <li>Conducted independent inspection practice using precision measuring tools (calipers, micrometers, bore gauges) and digital tablets for facility inspections.</li>
+              <li>Compared and analyzed processing facilities (Hwanal Tapping Center vs. Makino Horizontal Machining Center) and investigated the application of cutters, drills, tips, and endmills in machining processes.</li>
+              <li>Identified and proposed improvements to PTM worker performance, personal work skills, and work environment efficiency/safety issues.</li>
+              <li>Delivered a comprehensive final report summarizing findings, process comparisons, and recommendations, presented during a project performance review and Q&A session.</li>
             </ul>
           </div>
         </div>

@@ -109,39 +109,33 @@ export default function ProjectDetail() {
           {foundProject.videoUrl && (
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-black mb-3">Before Video</h3>
-              <video controls width="100%" className="rounded-lg shadow">
-                <source src={foundProject.videoUrl} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <YouTubeVideo 
+                videoId={foundProject.videoUrl} 
+                title="Before Video"
+                isShort={foundProject.isShort}
+              />
             </div>
           )}
 
           {foundProject.videoUrlConstruction && (
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-black mb-3">Construction Video</h3>
-              {foundProject.videoUrlConstruction.startsWith('/') ? (
-                <video controls width="100%" className="rounded-lg shadow">
-                  <source src={foundProject.videoUrlConstruction} type="video/mp4" />
-                  <source src={foundProject.videoUrlConstruction} type="video/quicktime" />
-                  Your browser does not support the video tag.
-                </video>
-              ) : (
-                <YouTubeVideo 
-                  videoId={foundProject.videoUrlConstruction} 
-                  title="Construction Process"
-                />
-              )}
+              <YouTubeVideo 
+                videoId={foundProject.videoUrlConstruction} 
+                title="Construction Process"
+                isShort={foundProject.isShortConstruction}
+              />
             </div>
           )}
 
           {foundProject.videoUrlAfter && (
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-black mb-3">After Video</h3>
-              <video controls width="100%" className="rounded-lg shadow">
-                <source src={foundProject.videoUrlAfter} type="video/mp4" />
-                <source src={foundProject.videoUrlAfter} type="video/quicktime" />
-                Your browser does not support the video tag.
-              </video>
+              <YouTubeVideo 
+                videoId={foundProject.videoUrlAfter} 
+                title="After Video"
+                isShort={foundProject.isShortAfter}
+              />
             </div>
           )}
 

@@ -15,7 +15,8 @@ The included photos and video show the process of running new wires, upgrading t
       '/IMG_5920.png',
       '/IMG_5922.png'
     ],
-    videoUrl: '/Rewire New.mp4',
+    videoUrl: 'wt6sBKo_mw4',
+    isShort: true,
     tags: ['Electrical', 'Residential', 'Hands-on', 'Safety'],
     date: 'Mar 2025'
   },
@@ -30,9 +31,10 @@ The before video shows the original state of the home, the construction video ca
       '/IMG_5985.jpeg',
       '/IMG_6138.png',
     ],
-    videoUrl: '/House Reno (Before).mp4',
-    videoUrlConstruction: 'eVUTj0d8Bec', // YouTube ID, not file path
-    videoUrlAfter: '/Final Product.MP4',
+    videoUrl: 'PHOR7BfN6Y4',
+    videoUrlConstruction: 'eVUTj0d8Bec',
+    videoUrlAfter: 'nhDTA77VUPU',
+    isShortAfter: true,
     tags: ['Renovation', 'Residential', 'Project Management', 'Hands-on'],
     date: 'Mar 2025'
   },
@@ -74,5 +76,25 @@ This project demonstrates my ability to bridge old and new technologies, work wi
     ],
     tags: ['Electronics', 'Automotive', 'Circuit Modification', 'Retrofitting', 'Hands-on'],
     date: 'Feb 2025'
+  },
+  {
+    id: '5',
+    title: 'ECE Course Prerequisite & Progress Tracker',
+    description: `Recognizing a critical need for better academic planning tools in the Electrical and Computer Engineering department, I developed a comprehensive course prerequisite and progress tracker to help students navigate their path to graduation. This interactive flowchart enables students to visualize course dependencies, track their progress toward degree completion, and make informed decisions about their academic schedule.
+
+Working independently but in collaboration with school administrators, I built this system using JavaScript and deployed it on Vercel for easy student access. The tracker provides students with a clear roadmap of required courses, prerequisite chains, and their current standing toward graduation requirements. It features an intuitive interface that organizes courses by year (Freshman through Senior), color-codes courses by status (completed, in progress, blocked), and displays detailed course information including credits, descriptions, and prerequisites.
+
+The application displays real-time progress metrics showing total courses completed, total credits earned, and remaining requirements - simplifying what was previously a complex and often confusing process of course planning. Students can toggle between Electrical Engineering and Computer Engineering tracks to see their specific curriculum requirements.
+
+The project demonstrates my ability to identify real-world problems, develop practical web-based solutions, and work within institutional frameworks to create tools that benefit the broader community. Beyond the technical implementation, I'm focused on creating a sustainable legacy by encouraging younger students to adopt and continue maintaining this resource for future ECE cohorts.
+
+This project showcases skills in web development, systems thinking, data organization, user experience design, and my commitment to improving the educational experience for my peers and future students in the department.`,
+    coverImage: '/ECE-Tracker-Flowchart.png',
+    images: [
+      '/ECE-Tracker-Flowchart.png'
+    ],
+    liveUrl: 'https://prerequisite-flowchart.vercel.app/',
+    tags: ['JavaScript', 'Vercel', 'Education', 'Web Development', 'Academic Planning', 'Student Resources'],
+    date: 'Oct 2025'
   }
 ];
