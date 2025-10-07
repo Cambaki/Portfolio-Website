@@ -136,41 +136,34 @@ export default function ProjectDetailPage() {
 
           {foundProject.videoUrl && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">Before Video</h3>
-              <video controls width="100%" className="rounded-lg shadow">
-                <source src={foundProject.videoUrl} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <h3 className="text-lg font-semibold text-black mb-3">Project Video</h3>
+              <YouTubeVideo 
+                videoId={foundProject.videoUrl}
+                title={foundProject.title}
+                isShort={foundProject.isShort}
+              />
             </div>
           )}
 
           {foundProject.videoUrlConstruction && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">Construction Video</h3>
-              {foundProject.videoUrlConstruction.startsWith('/') ? (
-                // Regular video file
-                <video controls width="100%" className="rounded-lg shadow">
-                  <source src={foundProject.videoUrlConstruction} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              ) : (
-                // YouTube video
-                <YouTubeVideo 
-                  videoId={foundProject.videoUrlConstruction} 
-                  title="Construction Process"
-                />
-              )}
+              <h3 className="text-lg font-semibold text-black mb-3">Construction Process</h3>
+              <YouTubeVideo 
+                videoId={foundProject.videoUrlConstruction} 
+                title="Construction Process"
+                isShort={foundProject.isShortConstruction}
+              />
             </div>
           )}
 
           {foundProject.videoUrlAfter && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">After Video</h3>
-              <video controls width="100%" className="rounded-lg shadow">
-                <source src={foundProject.videoUrlAfter} type="video/mp4" />
-                <source src={foundProject.videoUrlAfter} type="video/mov" />
-                Your browser does not support the video tag.
-              </video>
+              <h3 className="text-lg font-semibold text-black mb-3">Final Result</h3>
+              <YouTubeVideo 
+                videoId={foundProject.videoUrlAfter}
+                title="Final Result"
+                isShort={foundProject.isShortAfter}
+              />
             </div>
           )}
         </div>
