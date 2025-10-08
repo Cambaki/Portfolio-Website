@@ -108,10 +108,10 @@ export default function ProjectDetail() {
           {/* Videos Section */}
           {foundProject.videoUrl && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">Before Video</h3>
+              <h3 className="text-lg font-semibold text-black mb-3">Project Video</h3>
               <YouTubeVideo 
                 videoId={foundProject.videoUrl} 
-                title="Before Video"
+                title={foundProject.title}
                 isShort={foundProject.isShort}
               />
             </div>
@@ -119,7 +119,7 @@ export default function ProjectDetail() {
 
           {foundProject.videoUrlConstruction && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">Construction Video</h3>
+              <h3 className="text-lg font-semibold text-black mb-3">Construction Process</h3>
               <YouTubeVideo 
                 videoId={foundProject.videoUrlConstruction} 
                 title="Construction Process"
@@ -130,10 +130,10 @@ export default function ProjectDetail() {
 
           {foundProject.videoUrlAfter && (
             <div className="mb-6">
-              <h3 className="text-lg font-semibold text-black mb-3">After Video</h3>
+              <h3 className="text-lg font-semibold text-black mb-3">Final Result</h3>
               <YouTubeVideo 
                 videoId={foundProject.videoUrlAfter} 
-                title="After Video"
+                title="Final Result"
                 isShort={foundProject.isShortAfter}
               />
             </div>
