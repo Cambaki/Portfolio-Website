@@ -89,9 +89,10 @@ The application displays real-time progress metrics showing total courses comple
 The project demonstrates my ability to identify real-world problems, develop practical web-based solutions, and work within institutional frameworks to create tools that benefit the broader community. Beyond the technical implementation, I'm focused on creating a sustainable legacy by encouraging younger students to adopt and continue maintaining this resource for future ECE cohorts.
 
 This project showcases skills in web development, systems thinking, data organization, user experience design, and my commitment to improving the educational experience for my peers and future students in the department.`,
-    coverImage: '/ECE-Tracker-Flowchart.png',
+    coverImage: '/Flowchart.jpg',
     images: [
-      '/ECE-Tracker-Flowchart.png'
+      '/Flowchart.jpg',
+      '/Prerequisite-Flow.png',
     ],
     liveUrl: 'https://prerequisite-flowchart.vercel.app/',
     tags: ['JavaScript', 'Vercel', 'Education', 'Web Development', 'Academic Planning', 'Student Resources'],

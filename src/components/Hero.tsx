@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="relative">
                   <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
                     <img 
-                      src="/hero-image.jpeg"
+                      src="/Portrait.jpeg"
                       alt="Cameron Hale"
                       className="w-full h-full object-cover"
                       onError={(e) => {
