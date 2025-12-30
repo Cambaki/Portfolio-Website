@@ -44,17 +44,17 @@ export default function ProjectsPage() {
           </div>
           <div className="grid grid-cols-2 gap-3">
             <img
-              src="/NFC%20Card/IMG_0052.jpg"
+              src="/NFC%20Card/attachments%20(1)/IMG_0052.jpg"
               alt="Front of NFC portfolio card"
               className="rounded-lg shadow-sm border border-gray-200 object-cover w-full h-full"
             />
             <img
-              src="/NFC%20Card/IMG_0368.jpg"
+              src="/NFC%20Card/attachments%20(1)/IMG_0368.jpg"
               alt="Back of NFC portfolio card"
               className="rounded-lg shadow-sm border border-gray-200 object-cover w-full h-full"
             />
             <img
-              src="/NFC%20Card/602E85B8-1432-48A0-8C9A-FE528EAC54C1.PNG"
+              src="/NFC%20Card/attachments%20(1)/602E85B8-1432-48A0-8C9A-FE528EAC54C1.PNG"
               alt="NFC card artwork"
               className="rounded-lg shadow-sm border border-gray-200 object-cover w-full h-full col-span-2"
             />
