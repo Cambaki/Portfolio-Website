@@ -12,6 +12,8 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 import AboutPage from './pages/AboutPage';
 import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
 
 // Context Providers
 import { ProjectsProvider } from './hooks/useProjects';
@@ -41,6 +43,8 @@ export function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/resume" element={<ResumePage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/terms" element={<TermsPage />} />
           </Routes>
         </MainLayout>
       </ProjectsProvider>
