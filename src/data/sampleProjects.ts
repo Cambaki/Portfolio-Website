@@ -97,5 +97,39 @@ This project showcases skills in web development, systems thinking, data organiz
     liveUrl: 'https://prerequisite-flowchart.vercel.app/',
     tags: ['JavaScript', 'Vercel', 'Education', 'Web Development', 'Academic Planning', 'Student Resources'],
     date: 'Oct 2025'
+  },
+  {
+    id: '6',
+    title: 'Theta TCC & Valve Body Process Review',
+    description: `As a Machining Intern at Samkee America Manufacturing during Fall 2025, I conducted a comprehensive analysis of manufacturing processes, quality control procedures, and operator training systems. This project focused on the Theta Torque Converter Case (TCC) and Valve Body production lines, examining the entire workflow from raw material to finished product inspection.
+
+I reviewed and enhanced Process Training Manuals (PTM) and On-the-Job Training (OJT) guides for both operators and inspectors, ensuring documentation accuracy and clarity. Through hands-on practice, I developed proficiency with precision measuring instruments including calipers, micrometers, and bore gauges, while utilizing digital tablets for facility-wide inspection documentation.
+
+A key component of this project involved comparative analysis of different machining facilities - specifically the Hwanal Tapping Center versus the Makino Horizontal Machining Center. I investigated the applications and performance characteristics of various cutting tools including cutters, drills, tips, and endmills, evaluating their effectiveness in different machining scenarios.
+
+Through systematic observation and data collection, I identified opportunities for improvement in three critical areas: PTM worker performance metrics, personal work skill development protocols, and work environment efficiency and safety standards. My findings were documented in a comprehensive final report that included process comparisons, quantitative analyses, and actionable recommendations.
+
+The project culminated in a formal presentation and Q&A session with manufacturing leadership, where I demonstrated my understanding of complex machining operations, quality assurance principles, and continuous improvement methodologies. This experience strengthened my technical skills in precision measurement, process documentation, and manufacturing systems analysis while providing valuable insights into lean manufacturing and quality management practices.
+
+This internship bridged academic engineering knowledge with real-world manufacturing applications, demonstrating my ability to quickly adapt to industrial environments, work independently on technical projects, and communicate findings effectively to stakeholders.`,
+    coverImage: '/Samkee/attachments/IMG_0013.jpg',
+    images: [
+      '/Samkee/attachments/IMG_0014.jpg',
+      '/Samkee/attachments/IMG_0018.jpg',
+      '/Samkee/attachments/IMG_0020.jpg',
+      '/Samkee/attachments/IMG_0021.jpg',
+      '/Samkee/attachments/IMG_0023.jpg',
+      '/Samkee/attachments/IMG_0026.jpg',
+      '/Samkee/attachments/IMG_0027.jpg',
+      '/Samkee/attachments/IMG_0028.jpg',
+      '/Samkee/attachments 2/IMG_0106.jpg',
+      '/Samkee/attachments 2/IMG_0136.jpg',
+      '/Samkee/attachments 2/IMG_0199.jpg',
+      '/Samkee/attachments 2/IMG_0200.jpg',
+      '/Samkee/attachments 2/IMG_0202.jpg',
+      '/Samkee/attachments 2/IMG_0203.jpg'
+    ],
+    tags: ['Manufacturing', 'Quality Control', 'Process Improvement', 'Machining', 'Precision Measurement', 'Technical Documentation'],
+    date: 'Dec 2025'
   }
 ];
