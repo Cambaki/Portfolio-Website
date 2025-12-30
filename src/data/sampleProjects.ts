@@ -100,8 +100,8 @@ This project showcases skills in web development, systems thinking, data organiz
   },
   {
     id: '6',
-    title: 'Theta TCC & Valve Body Process Review',
-    description: `As a Machining Intern at Samkee America Manufacturing during Fall 2025, I conducted a comprehensive analysis of manufacturing processes, quality control procedures, and operator training systems. This project focused on the Theta Torque Converter Case (TCC) and Valve Body production lines, examining the entire workflow from raw material to finished product inspection.
+    title: 'TCC & Valve Body Process Review',
+    description: `As a Machining Intern at Samkee America Manufacturing during Fall 2025, I conducted a comprehensive analysis of manufacturing processes, quality control procedures, and operator training systems. This project focused on the Timing Chain Cover (TCC) and Valve Body production lines, examining the entire workflow from raw material to finished product inspection.
 
 I reviewed and enhanced Process Training Manuals (PTM) and On-the-Job Training (OJT) guides for both operators and inspectors, ensuring documentation accuracy and clarity. Through hands-on practice, I developed proficiency with precision measuring instruments including calipers, micrometers, and bore gauges, while utilizing digital tablets for facility-wide inspection documentation.
 
